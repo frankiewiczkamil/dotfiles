@@ -29,6 +29,9 @@ let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#branch#enabled=1
 
-source ~/.vim/coc.vim
-:imap jj <Esc>
-:vmap jj <Esc>
+"if !empty(expand(glob("~/.vim/coc.vim")))
+"	source ~/.vim/coc.vim
+"endif
+":imap jj <Esc>
+":vmap jj <Esc>
+
